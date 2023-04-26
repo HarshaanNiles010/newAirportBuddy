@@ -10,13 +10,14 @@ import {
   TouchableOpacity
 } from 'react-native'
 
-import HomePage from './Pages/HomePage';
+import LoginPage from './Pages/LoginPage';
 import { globalStyles } from './Styles/GlobalStyle';
 export default function App() {
   return (
-    <View style = {globalStyles.container} >
-      <HomePage>
-      </HomePage>
+    <View>
+      <LoginPage>
+
+      </LoginPage>
     </View>
   );
 }

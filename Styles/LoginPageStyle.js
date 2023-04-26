@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native'
 
-export const HomePageStyle = StyleSheet.create({
+export const LoginPageStyle = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: '#41BBD9',
