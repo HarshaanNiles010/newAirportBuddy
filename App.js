@@ -14,9 +14,8 @@ import HomePage from './Pages/HomePage';
 import { globalStyles } from './Styles/GlobalStyle';
 export default function App() {
   return (
-    <View >
+    <View style = {globalStyles.container} >
       <HomePage>
-
       </HomePage>
     </View>
   );
